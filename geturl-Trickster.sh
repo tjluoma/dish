@@ -11,6 +11,8 @@ echo "$URL"
 
 APPNAME="Trickster"
 
+APPTYPE='app'
+
 HOMEPAGE="http://www.apparentsoft.com/trickster/"
 
 DESC="Track/search recently used files"

@@ -8,6 +8,24 @@ URL='http://www.skype.com/go/getskype-macosx.dmg'
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Skype"
+
+APPTYPE='app'
+
+HOMEPAGE="http://www.skype.com/en/download-skype/skype-for-mac/downloading/"
+
+DESC="Phone calls via computer"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
 
 

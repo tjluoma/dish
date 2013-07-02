@@ -15,9 +15,11 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
-HOMEPAGE=' '
+HOMEPAGE='(null)'
 
-DESC="Adds 'cut' functionality to Finder [discontinued]"
+APPNAME="moveAddict"
+
+DESC="Adds 'cut' functionality to Finder. Sadly discontinued."
 
 echo "$HOMEPAGE
 $DESC

@@ -6,10 +6,23 @@ URL=$(curl -sL 'http://smilesoftware.com/PDFpenPro/download.html' | tr '"|\47' '
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="PDFpenPro"
+
+APPTYPE='app'
+
+HOMEPAGE="http://smilesoftware.com/PDFpenPro/"
+
+DESC="PDF power tool"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
-
-
-#RN: PDFpenPro
 
 
 # http://cdn.smilesoftware.com/PDFpenPro_6.0.3.zip

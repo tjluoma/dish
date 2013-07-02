@@ -10,6 +10,8 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
+APPNAME="MLPostFactor"
+
 HOMEPAGE="http://osxhackers.com"
 
 DESC="Install Mountain Lion on unsupported hardware"

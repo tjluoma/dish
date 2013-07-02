@@ -7,10 +7,23 @@ URL='http://dl.macupdate.com/final/utilities/SleepDisplay.zip'
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="SleepDisplay"
+
+APPTYPE='app'
+
+HOMEPAGE="http://www.malcolmhall.com/products/sleepdisplay/"
+
+DESC="immediately put your Mac's display to sleep"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
-
-
-#RN: SleepDisplay
 
 
 # http://dl.macupdate.com/final/utilities/SleepDisplay.zip

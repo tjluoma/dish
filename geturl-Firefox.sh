@@ -7,10 +7,22 @@ URL=$(curl -sL 'http://www.mozilla.org/en-US/firefox/all/' | fgrep -i "os=osx&am
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Firefox"
+
+APPTYPE='app'
+
+HOMEPAGE="http://www.mozilla.org/en-US/firefox/all/"
+
+DESC="web browser"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
-
-
-#RN: Firefox
 
 
 # http://download.mozilla.org/?product=firefox-22.0&os=osx&lang=en-US

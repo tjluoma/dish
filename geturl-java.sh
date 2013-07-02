@@ -12,6 +12,8 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
+APPNAME="Java"
+
 HOMEPAGE="http://www.java.com/inc/BrowserRedirect1.jsp?locale=en"
 
 DESC="Java installer for OS X"

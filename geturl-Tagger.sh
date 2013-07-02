@@ -12,6 +12,8 @@ echo "$URL"
 
 APPNAME="Tagger"
 
+APPTYPE='app'
+
 HOMEPAGE="http://bilalh.github.io/projects/tagger/"
 
 DESC="auto tags audio files. It also supports batch tag editing"

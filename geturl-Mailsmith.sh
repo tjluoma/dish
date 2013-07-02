@@ -6,4 +6,21 @@ URL=$(curl -sL 'http://mailsmith.org' | tr '"|\47' '\012' | egrep -i '\.dmg$' | 
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Mailsmith"
+
+APPTYPE='app'
+
+HOMEPAGE="http://mailsmith.org"
+
+DESC="mail client"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0

@@ -12,6 +12,8 @@ echo "$URL"
 
 APPNAME="Tagalicious"
 
+APPTYPE='app'
+
 HOMEPAGE="http://thelittleappfactory.com/tagalicious/"
 
 DESC="find metadata for iTunes music"

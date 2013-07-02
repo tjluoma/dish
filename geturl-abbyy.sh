@@ -12,9 +12,13 @@ echo "$URL"
 
 APPNAME="ABBYY FineReader Express"
 
+APPTYPE='app'
+
 HOMEPAGE="http://finereader.abbyy.com/finereader_for_mac/"
 
-DESC="OCR app"
+DESC="OCR app."
+
+ALT_SLUG="abbyy"
 
 echo "$HOMEPAGE
 $DESC

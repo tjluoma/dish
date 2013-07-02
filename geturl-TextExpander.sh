@@ -14,6 +14,12 @@ echo "$URL"
 
 APPNAME="TextExpander"
 
+
+
+APPTYPE='app'
+
+
+
 HOMEPAGE="http://smilesoftware.com/TextExpander/download.html"
 
 DESC="indispensable text snippet expander"

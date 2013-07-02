@@ -6,10 +6,21 @@ URL=$(curl -sL 'http://macbartender.com' | tr '"|\47' '\012' | egrep -i '\.(dmg|
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Bartender"
+
+APPTYPE='app'
+
+HOMEPAGE="http://macbartender.com"
+
+DESC="Tame your menu bar"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
-
-
-#RN: Bartender
-
 
 # http://macbartender.com/Demo/Bartender.zip

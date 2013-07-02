@@ -11,7 +11,10 @@ echo "$URL"
 
 APPNAME="VLC"
 
-HOMEPAGE="'/Applications/ABBYY FineReader Express.app/'"
+
+APPTYPE='app'
+
+HOMEPAGE='http://www.videolan.org/vlc/'
 
 DESC="'Plays anything' video player"
 

@@ -6,10 +6,23 @@ URL=$(curl -sL --head  http://updates.expandrive.com/apps/expandrive/download_la
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="ExpanDrive"
+
+APPTYPE='app'
+
+HOMEPAGE="http://www.expandrive.com/expandrive"
+
+DESC="mount servers as local volumes"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
-
-
-#RN: ExpanDrive
-
 
 # http://downloads.expandrive.com/expandrive/v3-0-3025_published_2013-06-20_at_14_30_41/ExpanDrive.zip

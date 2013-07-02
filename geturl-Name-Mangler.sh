@@ -8,6 +8,21 @@ URL='http://manytricks.com/download/namemangler'
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Name Mangler"
+
+APPTYPE='app'
+
+HOMEPAGE="http://manytricks.com/namemangler"
+
+DESC="batch rename files"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
 
 

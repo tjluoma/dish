@@ -10,6 +10,8 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
+APPNAME="iTerm"
+
 HOMEPAGE="www.iterm2.com/"
 
 DESC="Terminal replacement"

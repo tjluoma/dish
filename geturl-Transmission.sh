@@ -12,6 +12,8 @@ echo "$URL"
 
 APPNAME="Transmission"
 
+APPTYPE='app'
+
 HOMEPAGE="http://www.transmissionbt.com/download/"
 
 DESC="Bittorrent client"

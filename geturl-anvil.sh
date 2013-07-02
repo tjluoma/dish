@@ -11,6 +11,8 @@ echo "$URL"
 
 APPNAME="Anvil"
 
+APPTYPE='app'
+
 HOMEPAGE="http://anvilformac.com"
 
 DESC="easily run websites locally"

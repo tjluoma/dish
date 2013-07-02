@@ -11,6 +11,8 @@ echo "$URL"
 
 APPNAME="TimeMachineEditor"
 
+APPTYPE='app'
+
 HOMEPAGE="http://timesoftware.free.fr/timemachineeditor/"
 
 DESC="edit how often Time Machine backs up"

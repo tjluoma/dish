@@ -9,10 +9,22 @@ URL='http://www.shirt-pocket.com/downloads/SuperDuper%21.dmg'
 
 echo "$URL"
 
-exit 0
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
 
-#RN: SuperDuper
+APPNAME="SuperDuper!"
+
+APPTYPE='app'
+
+HOMEPAGE="http://short-pocket.com/SuperDuper"
+
+DESC="clone your hard drive"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 
 
 # http://www.shirt-pocket.com/downloads/SuperDuper%21.dmg

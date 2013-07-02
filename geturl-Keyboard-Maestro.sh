@@ -6,6 +6,21 @@ URL=$(curl -sL 'http://www.keyboardmaestro.com/' | tr '"' '\012' |  fgrep '/acti
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Keyboard Maestro"
+
+APPTYPE='app'
+
+HOMEPAGE="http://KeyboardMaestro.com"
+
+DESC="superb macro app"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
 
 

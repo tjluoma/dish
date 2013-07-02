@@ -10,9 +10,13 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
+APPNAME="iPhoto Library Manager"
+
 HOMEPAGE="http://www.fatcatsoftware.com/iplm/"
 
-DESC="Manage multiple iPhoto libraries"
+DESC="Manage multiple iPhoto libraries."
+
+ALT_SLUG="iplm"
 
 echo "$HOMEPAGE
 $DESC

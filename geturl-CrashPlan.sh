@@ -19,33 +19,23 @@ URL=$(JS_URL=`curl -sL http://www.crashplan.com/consumer/download.html | egrep '
 # now we check to see if that mess got us anything
 [[ "$URL" == "" ]] && exit 1
 
-# if it did, let's check the Content-Type of the URL to make sure it is what we want
+echo "$URL"
 
-# This is what we want
-TYPE_WANTED='application/x-apple-diskimage'
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
 
-# this is what we got
-TYPE_GIVEN=$(curl -s --head "$URL" | tr -d '\r' | awk -F' ' '/Content-Type/{print $NF}')
+APPNAME="CrashPlan"
 
-# if what we want = what we got, then we're good to go
-if [ "$TYPE_GIVEN" = "$TYPE_WANTED" ]
-then
+APPTYPE='app'
 
-	echo "$URL"
+HOMEPAGE="http://www.crashplan.com/consumer/download.html"
 
-	exit 0
+DESC="Backup, online and local"
 
-else
+echo "$HOMEPAGE
+$DESC
+"
 
-# if we get here the TYPEs did not match up
-
-	exit 1
-fi
-
-# EOF
-
-
-#RN: CrashPlan
-
+exit 0
 
 # http://download.crashplan.com/installs/mac/install/CrashPlan/CrashPlan_3.5.3_Mac.dmg

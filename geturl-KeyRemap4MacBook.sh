@@ -6,6 +6,24 @@ URL=$(curl -sL "http://pqrs.org/macosx/keyremap4macbook" |fgrep .dmg |head -1 |s
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="KeyRemap4MacBook"
+
+APPTYPE='app'
+
+HOMEPAGE="https://pqrs.org/macosx/keyremap4macbook/"
+
+DESC="remap keys on your Mac keyboard. Not just MacBooks."
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
 
 

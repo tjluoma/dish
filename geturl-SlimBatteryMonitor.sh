@@ -9,6 +9,24 @@ URL='http://quux.orange-carb.org/dist/SlimBatteryMonitor-1.5.dmg'
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="SlimBatteryMonitor"
+
+ALT_SLUG="sbm"
+
+APPTYPE='app'
+
+HOMEPAGE="http://orange-carb.org/SBM/"
+
+DESC="better battery monitor for Mac laptops"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
 
 

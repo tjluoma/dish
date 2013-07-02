@@ -10,9 +10,11 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
-HOMEPAGE='http://www.omnigroup.com/products/omnifocus/'
+APPNAME="OmniFocus"
 
-DESC='GTD-inspired task management'
+HOMEPAGE="http://www.omnigroup.com/products/omnifocus/"
+
+DESC="GTD-inspired task management"
 
 echo "$HOMEPAGE
 $DESC

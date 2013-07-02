@@ -11,6 +11,10 @@ echo "$URL"
 
 APPNAME="Google Chrome"
 
+ALT_SLUG="chrome"
+
+APPTYPE="app"
+
 HOMEPAGE="http://google.com/chrome"
 
 DESC="web browser from Google"

@@ -6,6 +6,26 @@ URL=$(curl -sL 'https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en'
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="PCKeyboardHack"
+
+APPTYPE='app'
+
+HOMEPAGE="https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en"
+
+ALT_SLUG="kbdhack"
+
+DESC="Remap your Mac keyboard. See also KeyRemap4MacBook"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
 
 

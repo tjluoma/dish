@@ -12,6 +12,8 @@ echo "$URL"
 
 APPNAME="Tags"
 
+APPTYPE='app'
+
 HOMEPAGE="http://www.caseapps.com/tags/"
 
 DESC="OpenMeta-compatible, GUI tagging app"

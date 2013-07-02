@@ -9,6 +9,25 @@ URL='http://download.spotify.com/Spotify.dmg'
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Spotify"
+
+APPTYPE='app'
+
+HOMEPAGE="https://www.spotify.com/"
+
+DESC="Online Music Service"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
+
 exit 0
 
 

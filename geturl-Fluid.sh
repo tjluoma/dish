@@ -6,6 +6,21 @@ URL=$(curl -sL 'http://fluidapp.com' | tr '"|\47' '\012' | egrep -i '\.(dmg|zip)
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Fluid"
+
+APPTYPE='app'
+
+HOMEPAGE="http://fluidapp.com"
+
+DESC="Create SSBs / separate browsers"
+
+echo "$HOMEPAGE
+$DESC
+"
+
 exit 0
 
 

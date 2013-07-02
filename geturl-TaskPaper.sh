@@ -11,6 +11,8 @@ echo "$URL"
 
 APPNAME="TaskPaper"
 
+APPTYPE='app'
+
 HOMEPAGE="http://www.hogbaysoftware.com/products/taskpaper"
 
 DESC="plain text to-do app"

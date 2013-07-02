@@ -10,6 +10,10 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
+APPNAME="growlnotify"
+
+TYPE='pkg'
+
 HOMEPAGE="http://growl.info/downloads"
 
 DESC="send Growl notifications from the command-line"

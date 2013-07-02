@@ -6,6 +6,23 @@ URL=$(curl -sL 'http://www.irradiatedsoftware.com/updates/profiles/sizeup.php' |
 
 echo "$URL"
 
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="SizeUp"
+
+APPTYPE='app'
+
+HOMEPAGE="http://www.irradiatedsoftware.com/sizeup"
+
+DESC="Resize windows via keyboard"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
 
 

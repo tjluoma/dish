@@ -6,6 +6,26 @@ URL=$(curl -sL 'http://get.adobe.com/flashplayer/download/?installer=Flash_Playe
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="Flash Player"
+
+APPTYPE='preference'
+
+HOMEPAGE="http://get.adobe.com/flashplayer"
+
+DESC="Ubiquitous, Perpetually Buggy browser plugin that refuses to die."
+
+ALT_SLUG="flash"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
 exit 0
 
 

@@ -7,6 +7,27 @@ URL=$(curl -sL "http://multimarkdown.com/download/" | tr '"' '\012' | egrep '^ht
 
 echo "$URL"
 
+
+# Unless VERBOSE is 'yes' quit now
+[[ "$VERBOSE" != "yes" ]] && exit 0
+
+APPNAME="MultiMarkdown Composer"
+
+APPTYPE='app'
+
+HOMEPAGE="http://multimarkdown.com/download/"
+
+DESC="MultiMarkdown enabled editor."
+
+ALT_SLUG="mmdc"
+
+echo "$HOMEPAGE
+$DESC
+"
+
+
+
+
 exit 0
 
 

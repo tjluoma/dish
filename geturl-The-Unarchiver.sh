@@ -12,6 +12,8 @@ echo "$URL"
 
 APPNAME="The Unarchiver"
 
+APPTYPE='app'
+
 HOMEPAGE="http://wakaba.c3.cx/s/apps/unarchiver.html"
 
 DESC="'Opens anything' unarchiver"

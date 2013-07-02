@@ -12,9 +12,11 @@ echo "$URL"
 # Unless VERBOSE is 'yes' quit now
 [[ "$VERBOSE" != "yes" ]] && exit 0
 
-HOMEPAGE='https://github.com/alloy/terminal-notifier'
+APPNAME="terminal-notifier"
 
-DESC='send message to Notification Center from command line'
+HOMEPAGE="https://github.com/alloy/terminal-notifier"
+
+DESC="send message to Notification Center from command line"
 
 echo "$HOMEPAGE
 $DESC
